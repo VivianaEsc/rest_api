@@ -28,7 +28,6 @@ INSTALLED_APPS = [
     'apps.base',
     'apps.users',
     'apps.products',
-    'apps.products',
     'rest_framework',
     'simple_history'
 ]
