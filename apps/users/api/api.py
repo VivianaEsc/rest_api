@@ -47,5 +47,5 @@ def user_detail_api_view(request,pk):
         elif request.method == 'DELETE':
             user.delete()
             return Response({'message':'Usuario eliminado correctamente'},status=status.HTTP_200_OK)
-    return Response({'message':'No se ha encontrado un usaurio con estos datos'},status=status.HTTP_400_BAD_REQUEST)
+    return Response({'message':'No se ha encontrado un usuario con estos datos'},status=status.HTTP_400_BAD_REQUEST)
 
