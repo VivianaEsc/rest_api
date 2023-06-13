@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-nv$!2@0pju9(@62_n(#4#wz$hl(vil49ltsf!39b!f$$t-zb5m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['15.229.42.115']
 
 
 # Application definition
@@ -27,6 +27,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'apps.base',
     'apps.users',
+    'apps.products',
     'apps.products',
     'rest_framework',
     'simple_history'
